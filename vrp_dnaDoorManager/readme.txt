@@ -9,11 +9,7 @@ A big thanks to the user wpgn for teaching me some of the server side stuff.
 
 MySql DataBase Table that stores the status of doors (locked or unlocked)
 
-CREATE TABLE IF NOT EXISTS `city_doors` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `locked` int(1) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8;
+city_doors.sql
 
 id = the door id
 locked = if 1 the door is locked / 0 is unlocked
